@@ -46,7 +46,6 @@ a {
   text-decoration: none;
 }
 
-
 a:active {
   color: #f1b828;
 }
@@ -86,7 +85,8 @@ button,
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
-.ba-button:hover {}
+.ba-button:hover {
+}
 
 input[type="text"],
 input[type="email"],
@@ -105,9 +105,11 @@ input[type="password"]:focus,
 input[type="number"]:focus,
 input[type="tel"]:focus,
 textarea:focus,
-select:focus {}
+select:focus {
+}
 
-textarea {}
+textarea {
+}
 
 .ba-header-bar {
   height: 80px;
@@ -140,9 +142,11 @@ textarea {}
   right: 0;
   bottom: 0;
   z-index: 1;
-  background: linear-gradient(to top,
+  background: linear-gradient(
+    to top,
     rgba(123, 55, 89, 0.8) 0%,
-    rgba(172, 7, 52, 0.8) 100%);
+    rgba(172, 7, 52, 0.8) 100%
+  );
 }
 
 .ba-intro__body {
@@ -175,7 +179,8 @@ textarea {}
   color: #fff;
 }
 
-.ba-project-link:hover {}
+.ba-project-link:hover {
+}
 
 .ba-project-link__body {
   padding-left: 16px;
@@ -208,7 +213,6 @@ textarea {}
   transition: color 0.2s, opacity 0.2s;
   display: inline-block;
   align-items: center;
-
 }
 
 .ba-read-more:hover {
@@ -248,7 +252,6 @@ textarea {}
 
 /*CSS FOR SECTION HIGHLISTS*/
 .ba-highlights {
-
   background-color: #f4f4f1;
 }
 
@@ -263,7 +266,7 @@ textarea {}
   display: flex;
 }
 
-.logo-image+.ba-highlights-header__logo_text {
+.logo-image + .ba-highlights-header__logo_text {
   margin-left: 9px;
 }
 
@@ -302,14 +305,13 @@ textarea {}
   border: 1px solid #bc204b;
   background-color: #fff;
   padding: 10px 20px;
-  border-radius: 23px
+  border-radius: 23px;
 }
 
 .ba-btn-view:hover {
   color: #fff;
   border: 1px solid #fff;
   background-color: #bc204b;
-
 }
 
 .ba-intro-video {
@@ -327,7 +329,7 @@ textarea {}
   align-items: center;
 }
 
-.ba-circle-arrow-l+.ba-circle-arrow-r {
+.ba-circle-arrow-l + .ba-circle-arrow-r {
   margin-left: 12px;
   margin-right: 7px;
 }
@@ -383,7 +385,7 @@ textarea {}
 }
 
 .ba-post__link:hover:before {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .ba-post__date {
@@ -392,9 +394,9 @@ textarea {}
   left: 24px;
   top: 24px;
   z-index: 2;
-  color: #FFF;
+  color: #fff;
   width: 24px;
-  transition: opacity .3s ease-in;
+  transition: opacity 0.3s ease-in;
   opacity: 0;
 }
 
@@ -436,13 +438,11 @@ textarea {}
   line-height: 1.4;
   margin-bottom: 7px;
   letter-spacing: -0.01em;
-
 }
 
 .ba-post-title--maxwidth_title {
   max-width: 86%;
 }
-
 
 .ba-post-title-link {
   color: #000;
@@ -481,7 +481,6 @@ textarea {}
 .ba-article-post:hover .author,
 .ba-article-post:hover .author-name {
   display: none;
-
 }
 
 .ba-circle-arrow-l,
@@ -500,6 +499,6 @@ textarea {}
   align-items: center;
 }
 
-.author+.author-name {
+.author + .author-name {
   padding-left: 10px;
 }
