@@ -58,7 +58,8 @@ p {
 .ba-container {
   max-width: 1230px;
   margin: 0 auto;
-  padding: 160px 30px;
+  padding: 0 30px;
+  padding-bottom:160px;
 }
 
 .ba-container--small {
